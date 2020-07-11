@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+deepspeech = "==0.6.1"
+soundfile = "*"
+numpy = "*"
+librosa = "*"
+numba = "==0.48"
+
+[requires]
+python_version = "3.7"
